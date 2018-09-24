@@ -105,32 +105,25 @@
                             </label>
                             <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="1qZ-D9-jqT">
                                 <rect key="frame" x="0.0" y="575" width="375" height="29"/>
+                                <color key="backgroundColor" red="0.83741801979999997" green="0.83743780850000005" blue="0.83742713930000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <segments>
                                     <segment title="°F"/>
                                     <segment title="°C"/>
                                 </segments>
-                                <color key="tintColor" red="0.51459640264511108" green="0.50616598129272461" blue="0.40957337617874146" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.57380741830000004" green="0.56553578380000002" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             </segmentedControl>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xhQ-Xe-20D">
-                                <rect key="frame" x="0.0" y="575" width="375" height="28"/>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            </view>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="xhQ-Xe-20D" firstAttribute="width" secondItem="1qZ-D9-jqT" secondAttribute="width" id="1NO-0d-gOG"/>
                             <constraint firstItem="VHS-4U-EnG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="3qb-D1-Bun"/>
                             <constraint firstItem="1qZ-D9-jqT" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="4kz-Ma-1cy"/>
                             <constraint firstItem="pxD-zV-uYj" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="5B6-0n-WuN"/>
                             <constraint firstItem="l2b-qo-C4G" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="5bb-OK-aQj"/>
-                            <constraint firstItem="xhQ-Xe-20D" firstAttribute="height" secondItem="1qZ-D9-jqT" secondAttribute="height" id="6vH-89-Qsf"/>
                             <constraint firstItem="pxD-zV-uYj" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Ays-AN-id5"/>
                             <constraint firstItem="EXG-GV-AdN" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="BvT-63-5hK"/>
-                            <constraint firstItem="xhQ-Xe-20D" firstAttribute="top" secondItem="pxD-zV-uYj" secondAttribute="bottom" constant="-92" id="EWD-08-xXf"/>
                             <constraint firstItem="pxD-zV-uYj" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="Gac-Uy-jjG"/>
                             <constraint firstItem="VHS-4U-EnG" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="SGt-sO-FfE"/>
                             <constraint firstItem="EXG-GV-AdN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Y8g-Od-9r6"/>
-                            <constraint firstItem="xhQ-Xe-20D" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="aJT-nu-YWn"/>
                             <constraint firstItem="1qZ-D9-jqT" firstAttribute="top" secondItem="l2b-qo-C4G" secondAttribute="bottom" constant="20" id="aq1-XG-fyz"/>
                             <constraint firstItem="l2b-qo-C4G" firstAttribute="top" secondItem="EXG-GV-AdN" secondAttribute="bottom" constant="36.5" id="d5x-9M-4kk"/>
                             <constraint firstItem="pxD-zV-uYj" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="kCE-wn-B3y"/>

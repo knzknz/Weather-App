@@ -47,14 +47,14 @@ extension ViewController:  UICollectionViewDataSource {
         
         //set up temperature conversion
         if conversionControl.selectedSegmentIndex == 0 {
-            cell.highLabel.text = "\(forecasts[indexPath.row].maxTempF)°F"
-            cell.lowLabel.text = "\(forecasts[indexPath.row].minTempF)°F"
+            cell.highLabel.text = "H: \(forecasts[indexPath.row].maxTempF)°F"
+            cell.lowLabel.text = "L: \(forecasts[indexPath.row].minTempF)°F"
             DispatchQueue.main.async {
                 self.collectionView.reloadData()
             }
         } else {
-            cell.highLabel.text = "\(forecasts[indexPath.row].maxTempC)°C"
-            cell.lowLabel.text = "\(forecasts[indexPath.row].minTempC)°C"
+            cell.highLabel.text = "H: \(forecasts[indexPath.row].maxTempC)°C"
+            cell.lowLabel.text = "L: \(forecasts[indexPath.row].minTempC)°C"
             DispatchQueue.main.async {
                 self.collectionView.reloadData()
             }
