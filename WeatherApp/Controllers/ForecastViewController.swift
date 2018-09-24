@@ -1,6 +1,6 @@
 import UIKit
 
-class ViewController: UIViewController {
+class ForecastViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
     
@@ -32,7 +32,7 @@ class ViewController: UIViewController {
 
 
 //MARK: - Collection View Setup
-extension ViewController:  UICollectionViewDataSource {
+extension ForecastViewController:  UICollectionViewDataSource {
     
     func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         return self.forecasts.count
@@ -63,7 +63,7 @@ extension ViewController:  UICollectionViewDataSource {
     }
 }
 
-extension ViewController: UICollectionViewDelegateFlowLayout {
+extension ForecastViewController: UICollectionViewDelegateFlowLayout {
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
         return CGSize.init(width: collectionView.bounds.width / CGFloat(2.0) , height: collectionView.bounds.height)
     }
